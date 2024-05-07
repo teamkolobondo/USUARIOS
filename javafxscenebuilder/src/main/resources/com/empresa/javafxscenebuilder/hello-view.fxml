@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<VBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.empresa.javafxscenebuilder.HelloController" spacing="10" alignment="CENTER">
+    <TextField fx:id="emailField" promptText="Correo electrónico"/>
+    <PasswordField fx:id="passwordField" promptText="Contraseña"/>
+    <PasswordField fx:id="confirmPasswordField" promptText="Confirmar contraseña"/>
+    <DatePicker fx:id="registrationDate" promptText="Fecha de alta"/>
+    <CheckBox fx:id="privacyCheckbox" text="Acepto la política de privacidad"/>
+    <Button text="Registrarse" onAction="#onRegisterButtonClick"/>
+    <Label fx:id="statusLabel"/>
+    <Button text="Iniciar sesión" onAction="#onLoginButtonClick"/>
+</VBox>
